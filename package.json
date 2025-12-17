@@ -17,10 +17,7 @@
     "dev": "nodemon ./bin/www"
   },
   "dependencies": {
-    "acos-annotated": "^0.2.0",
-    "acos-annotated-demo": "~0.1.0",
-    "acos-html": "^0.2.0",
-    "acos-logging-keygenerator": "~0.1.0",
+    "acos-python-parser": "file:acos-python-parser",
     "archiver": "^2.0.0",
     "body-parser": "^1.17.2",
     "colors": "~1.3.1",
@@ -32,6 +29,7 @@
     "lodash": "^4.17.4",
     "morgan": "^1.8.2",
     "nunjucks": "^3.0.1",
+    "python-shell": "0.0.3",
     "serve-favicon": "^2.4.3"
   },
   "devDependencies": {

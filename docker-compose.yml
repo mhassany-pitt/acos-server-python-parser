@@ -1,0 +1,10 @@
+# run: docker-compose up
+services:
+  webapp:
+    container_name: acos-server-python-parser
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - "9090:3000"
+    restart: always
